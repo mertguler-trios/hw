@@ -1,0 +1,154 @@
+body {
+    background: whitesmoke;
+    margin: 0;
+    color: #444444;
+}
+
+.link-title {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;    
+}
+
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 2px 3px 4px grey;
+}
+
+.header {
+    padding: 45px 0px 20px 40px;
+}
+
+.menu {
+    background: darkcyan;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover {
+    color: darkgrey;
+}
+
+.sidebar {
+    float: left;
+    width: 120px;
+    padding: 30px 0 0  40px;
+}
+
+.sidebar h1 {
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.main {
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: justify;
+}
+
+.main a:hover {
+    color: #444444;
+    text-decoration: none;
+}
+
+.page-heading {
+    margin: 0px;
+    margin-bottom: 20px;
+    color: #869843;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#home-image img {
+    width: 100%;
+}
+
+.footer {
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444444;
+    font-size: 12px;
+    text-align: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.separator {
+    color: white;
+    font-size: 12px;
+}
+
+
+/* About Page Styles */
+
+#about-page #home-image img {
+    width: 70%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+#about-page #profile-info {
+    width: 30%;
+    float: right;
+}
+
+h2 {
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    color: teal;
+}
+
+#about-page .description {
+    clear: both;
+    text-align: justify;
+}
+
+/* Contact Page Styles */
+
+#contact-page #form {
+    width: 400px;
+    padding: 25px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 3px 4px grey;
+    border-radius: 5px;
+}
+
+#contact-page #form input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+#contact-page #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+#contact-page #form #submit {
+    height: 50px;
+    background-color: #63d2c0;
+}

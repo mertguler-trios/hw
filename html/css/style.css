@@ -1,0 +1,59 @@
+div {
+    border: 5px solid red;
+    background: blue;
+    color: white;
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    margin-right: 40px;
+    padding: 50px;
+}
+
+div ul {
+    list-style-type: lower-greek;
+}
+
+
+
+/* 
+
+p{
+    color:red;
+    background-color: yellowgreen;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color:green;
+    background-color: #241524;
+    font-size: 52px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+ */
+
+/* div p{
+    color:seagreen;
+}
+
+p,h1{
+    color: red;
+} 
+
+
+#first-para {
+    color: blue;
+}
+
+.first-para {
+    color:chocolate;
+} */
+
+/* h1 {
+    color:royalblue;
+}
+
+body{
+    background-color: black;
+} */
